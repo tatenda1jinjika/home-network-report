@@ -13,12 +13,15 @@ I wanted to understand how my network works and how to check it with basic comma
 
 ### ping
 ![ping google.com result](ping-google.com.png)
+
 0 of 4 packets lost, average round-trip time 42 ms.
 
 ### nslookup
 ![nslookup google.com result](nslookup-google.com.png)
+
 The DNS server at 10.49.41.56 answered with several IPv4 and IPv6 addresses.
 
 ### tracert
 ![tracert google.com result](tracert-google.com.png)
+
 Five hops to Google. Hops 2 and 4 timed out, and the trace still completed.
